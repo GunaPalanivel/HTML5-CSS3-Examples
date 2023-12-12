@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Forms</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgba(54, 48, 69, 0.701);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML - Forms</h1>
+
+    <form>
+        First Name: <input type="text" name="First Name" placeholder="First Name">
+        <br>
+        <br>
+        Last Name: <input type="text" name="Last Name" placeholder="Last Name">
+        <br>
+        <br>
+        Gender:
+        <select name="Gender">
+            <option value="None">Choose</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Transgender">Transgender</option>
+            <option value="LGBTIQ">LGBTIQ</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        Password: <input type="password" name="Password" placeholder="Password" maxlength="16">
+        <br>
+        <br>
+        Description: <br>
+        <textarea name="Description" cols="50" rows="5" placeholder="Description">
+            Enter your Description here...
+        </textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="Agree" value="Agree"> I agree to the terms and conditions.
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form> 
+</body>
+</html>

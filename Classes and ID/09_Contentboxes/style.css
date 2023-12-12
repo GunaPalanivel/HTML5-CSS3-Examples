@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+
+.container .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #544403;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box .icon{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 10px;
+    height: 10px;
+    background: rgb(6, 2, 56);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container .box:hover .icon{
+    top: 20px;
+}

@@ -1,0 +1,36 @@
+p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    word-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #FF0000;
+    text-indent: 50px;
+    background-color: #00FF00;
+    border: 5px solid #0000FF;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #150232;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    transform: rotate(30deg);
+    transform: scale(1.5);
+    transform: skew(30deg);
+    transform: translate(50px, 50px);
+    transform-origin: 0% 0%;
+    transition: all 1s ease-in-out;
+    animation: mymove 5s infinite;
+}
