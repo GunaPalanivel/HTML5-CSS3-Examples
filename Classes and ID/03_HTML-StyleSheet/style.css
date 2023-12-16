@@ -1,8 +1,19 @@
-div{
-    background-color: blue;
-    color: antiquewhite;
-    font-weight: bolder;
-    font-style: italic;
-    border: 3px solid silver;
-    text-align: center;
+div {
+  /* Sets the background color of the div element to blue */
+  background-color: blue;
+
+  /* Sets the text color of the div element to antique white */
+  color: antiquewhite;
+
+  /* Sets the font weight of the text inside the div element to bolder */
+  font-weight: bolder;
+
+  /* Sets the font style of the text inside the div element to italic */
+  font-style: italic;
+
+  /* Sets the border of the div element to a 3px solid line with the color silver */
+  border: 3px solid silver;
+
+  /* Aligns the text inside the div element to the center */
+  text-align: center;
 }
