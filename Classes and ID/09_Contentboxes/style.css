@@ -1,39 +1,47 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+body {
+  margin: 0; /* Sets the margin of the body element to 0 */
+  padding: 0; /* Sets the padding of the body element to 0 */
+  font-family: sans-serif; /* Sets the font family of the body element to sans-serif */
 }
 
-.container{
-    position: relative;
-    width: 1200px;
-    height: 300px;
-    margin: 240px auto;
+.container {
+  position: relative; /* Sets the position of the container element to relative */
+  width: 1200px; /* Sets the width of the container element to 1200 pixels */
+  height: 300px; /* Sets the height of the container element to 300 pixels */
+  margin: 240px auto; /* Sets the margin of the container element to 240 pixels on the top and bottom, and auto on the left and right */
 }
 
-.container .box{
-    position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: #544403;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
+.container .box {
+  position: relative; /* Sets the position of the box element inside the container to relative */
+  width: calc(
+    400px - 30px
+  ); /* Sets the width of the box element to the result of the calculation 400px - 30px */
+  height: calc(
+    300px - 30px
+  ); /* Sets the height of the box element to the result of the calculation 300px - 30px */
+  background: #544403; /* Sets the background color of the box element to #544403 */
+  float: left; /* Floats the box element to the left */
+  margin: 15px; /* Sets the margin of the box element to 15 pixels on all sides */
+  box-sizing: border-box; /* Sets the box-sizing property of the box element to border-box */
+  overflow: hidden; /* Hides any content that overflows the box element */
+  border-radius: 10px; /* Sets the border radius of the box element to 10 pixels */
 }
 
-.container .box .icon{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 10px;
-    height: 10px;
-    background: rgb(6, 2, 56);
-    transition: 0.5s;
-    z-index: 1;
+.container .box .icon {
+  position: absolute; /* Sets the position of the icon element inside the box to absolute */
+  top: 0%; /* Sets the top position of the icon element to 0% */
+  left: 0%; /* Sets the left position of the icon element to 0% */
+  width: 10px; /* Sets the width of the icon element to 10 pixels */
+  height: 10px; /* Sets the height of the icon element to 10 pixels */
+  background: rgb(
+    6,
+    2,
+    56
+  ); /* Sets the background color of the icon element to rgb(6, 2, 56) */
+  transition: 0.5s; /* Sets the transition property of the icon element to have a duration of 0.5 seconds */
+  z-index: 1; /* Sets the z-index of the icon element to 1 */
 }
 
-.container .box:hover .icon{
-    top: 20px;
+.container .box:hover .icon {
+  top: 20px; /* When hovering over the box element, sets the top position of the icon element to 20 pixels */
 }

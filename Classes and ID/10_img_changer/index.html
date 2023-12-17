@@ -11,52 +11,52 @@
 <body>
     <div class="slider">
         <div class="slides">
-            <input type="radio" name="radio-button" id="radio01">
-            <input type="radio" name="radio-button" id="radio02">
-            <input type="radio" name="radio-button" id="radio03">
-            <input type="radio" name="radio-button" id="radio04">
+            <input type="radio" name="radio-button" id="radio01"> <!-- Radio button for slide 1 -->
+            <input type="radio" name="radio-button" id="radio02"> <!-- Radio button for slide 2 -->
+            <input type="radio" name="radio-button" id="radio03"> <!-- Radio button for slide 3 -->
+            <input type="radio" name="radio-button" id="radio04"> <!-- Radio button for slide 4 -->
 
-            <div class="slide first">
-                <img src="images/img01.png" alt="img 1" class="slide-img">
+            <div class="slide first"> <!-- Slide 1 -->
+                <img src="images/img01.png" alt="img 1" class="slide-img"> <!-- Image for slide 1 -->
             </div>
 
-            <div class="slide second">
-                <img src="images/img02.png" alt="img 2" class="slide-img">
+            <div class="slide second"> <!-- Slide 2 -->
+                <img src="images/img02.png" alt="img 2" class="slide-img"> <!-- Image for slide 2 -->
             </div>
 
-            <div class="slide third">
-                <img src="images/img03.png" alt="img 3" class="slide-img">
+            <div class="slide third"> <!-- Slide 3 -->
+                <img src="images/img03.png" alt="img 3" class="slide-img"> <!-- Image for slide 3 -->
             </div>
 
-            <div class="slide four">
-                <img src="images/img04.png" alt="img 4" class="slide-img">
+            <div class="slide four"> <!-- Slide 4 -->
+                <img src="images/img04.png" alt="img 4" class="slide-img"> <!-- Image for slide 4 -->
             </div>
 
-            <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
+            <div class="navigation-auto"> <!-- Automatic navigation buttons -->
+                <div class="auto-btn1"></div> <!-- Button for slide 1 -->
+                <div class="auto-btn2"></div> <!-- Button for slide 2 -->
+                <div class="auto-btn3"></div> <!-- Button for slide 3 -->
+                <div class="auto-btn4"></div> <!-- Button for slide 4 -->
             </div>
         </div>
 
-        <div class="navigation-manual">
-            <label for="radio01" class="manual-btn"></label>
-            <label for="radio02" class="manual-btn"></label>
-            <label for="radio03" class="manual-btn"></label>
-            <label for="radio04" class="manual-btn"></label>
+        <div class="navigation-manual"> <!-- Manual navigation buttons -->
+            <label for="radio01" class="manual-btn"></label> <!-- Button for slide 1 -->
+            <label for="radio02" class="manual-btn"></label> <!-- Button for slide 2 -->
+            <label for="radio03" class="manual-btn"></label> <!-- Button for slide 3 -->
+            <label for="radio04" class="manual-btn"></label> <!-- Button for slide 4 -->
         </div>
     </div>
 
     <script type="text/javascript">
-        var counter = 1;
-        setInterval(function () {
-            document.getElementById('radio' + counter).checked = true;
-            counter++;
-            if (counter > 4) {
+        var counter = 1; // Initialize counter variable to keep track of the current slide
+        setInterval(function () { // Set up an interval function to change slides automatically
+            document.getElementById('radio' + counter).checked = true; // Select the radio button corresponding to the current slide
+            counter++; // Increment the counter
+            if (counter > 4) { // If counter exceeds the number of slides, reset it to 1
                 counter = 1;
             }
-        }, 2000);
+        }, 2000); // Repeat every 2 seconds
     </script>
 </body>
 

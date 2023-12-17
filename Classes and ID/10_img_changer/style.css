@@ -1,111 +1,111 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #050505; /* Changed background color */
+  margin: 0; /* Sets the margin of the body element to 0 */
+  padding: 0; /* Sets the padding of the body element to 0 */
+  height: 100vh; /* Sets the height of the body element to 100% of the viewport height */
+  display: flex; /* Displays the body element as a flex container */
+  justify-content: center; /* Centers the flex items horizontally */
+  align-items: center; /* Centers the flex items vertically */
+  background-color: #050505; /* Sets the background color of the body element to #050505 */
 }
 
 .slider {
-    width: 800px;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
+  width: 800px; /* Sets the width of the slider element to 800 pixels */
+  height: 500px; /* Sets the height of the slider element to 500 pixels */
+  position: relative; /* Sets the position of the slider element to relative */
+  overflow: hidden; /* Hides the content that overflows the slider element */
 }
 
 .slides {
-    width: 500%;
-    height: 100%;
-    display: flex;
+  width: 500%; /* Sets the width of the slides element to 500% of its parent element */
+  height: 100%; /* Sets the height of the slides element to 100% of its parent element */
+  display: flex; /* Displays the slides element as a flex container */
 }
 
 .slides input {
-    display: none;
+  display: none; /* Hides the input elements inside the slides element */
 }
 
 .slide {
-    width: 20%;
-    transition: 2s;
+  width: 20%; /* Sets the width of the slide element to 20% of its parent element */
+  transition: 2s; /* Sets the transition duration of the slide element to 2 seconds */
 }
 
 .slide img {
-    width: 100%;
-    height: 100%;
+  width: 100%; /* Sets the width of the images inside the slide element to 100% */
+  height: 100%; /* Sets the height of the images inside the slide element to 100% */
 }
 
 .navigation-manual {
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
+  position: absolute; /* Sets the position of the navigation-manual element to absolute */
+  width: 800px; /* Sets the width of the navigation-manual element to 800 pixels */
+  margin-top: -40px; /* Sets the top margin of the navigation-manual element to -40 pixels */
+  display: flex; /* Displays the navigation-manual element as a flex container */
+  justify-content: center; /* Centers the flex items horizontally */
 }
 
 .manual-btn {
-    border: 2px solid #fff;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
+  border: 2px solid #fff; /* Sets the border of the manual-btn element to a 2-pixel solid line with color #fff */
+  padding: 5px; /* Sets the padding of the manual-btn element to 5 pixels */
+  border-radius: 10px; /* Sets the border radius of the manual-btn element to 10 pixels */
+  cursor: pointer; /* Sets the cursor style of the manual-btn element to pointer */
+  transition: 1s; /* Sets the transition duration of the manual-btn element to 1 second */
 }
 
 .manual-btn:not(:last-child) {
-    margin-right: 40px;
+  margin-right: 40px; /* Sets the right margin of the manual-btn element to 40 pixels, except for the last child */
 }
 
 .manual-btn:hover {
-    background-color: #fff;
+  background-color: #fff; /* Sets the background color of the manual-btn element to #fff on hover */
 }
 
 #radio1:checked ~ .first {
-    margin-left: 0;
+  margin-left: 0; /* Sets the left margin of the element with class "first" to 0 when radio button with id "radio1" is checked */
 }
 
 #radio2:checked ~ .first {
-    margin-left: -20%;
+  margin-left: -20%; /* Sets the left margin of the element with class "first" to -20% when radio button with id "radio2" is checked */
 }
 
 #radio3:checked ~ .first {
-    margin-left: -40%;
+  margin-left: -40%; /* Sets the left margin of the element with class "first" to -40% when radio button with id "radio3" is checked */
 }
 
 #radio4:checked ~ .first {
-    margin-left: -60%;
+  margin-left: -60%; /* Sets the left margin of the element with class "first" to -60% when radio button with id "radio4" is checked */
 }
 
 .navigation-auto {
-    position: absolute;
-    display: flex;
-    width: 800px;
-    justify-content: center;
-    margin-top: 460px;
+  position: absolute; /* Sets the position of the navigation-auto element to absolute */
+  display: flex; /* Displays the navigation-auto element as a flex container */
+  width: 800px; /* Sets the width of the navigation-auto element to 800 pixels */
+  justify-content: center; /* Centers the flex items horizontally */
+  margin-top: 460px; /* Sets the top margin of the navigation-auto element to 460 pixels */
 }
 
 .navigation-auto div {
-    border: 2px solid #fff;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
+  border: 2px solid #fff; /* Sets the border of the div elements inside the navigation-auto element to a 2-pixel solid line with color #fff */
+  padding: 5px; /* Sets the padding of the div elements inside the navigation-auto element to 5 pixels */
+  border-radius: 10px; /* Sets the border radius of the div elements inside the navigation-auto element to 10 pixels */
+  transition: 1s; /* Sets the transition duration of the div elements inside the navigation-auto element to 1 second */
 }
 
 .navigation-auto div:not(:last-child) {
-    margin-right: 40px;
+  margin-right: 40px; /* Sets the right margin of the div elements inside the navigation-auto element to 40 pixels, except for the last child */
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-    background-color: black;
+  background-color: black; /* Sets the background color of the element with class "auto-btn1" inside the navigation-auto element to black when radio button with id "radio1" is checked */
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-    background-color: black;
+  background-color: black; /* Sets the background color of the element with class "auto-btn2" inside the navigation-auto element to black when radio button with id "radio2" is checked */
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-    background-color: black;
+  background-color: black; /* Sets the background color of the element with class "auto-btn3" inside the navigation-auto element to black when radio button with id "radio3" is checked */
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-    background-color: black;
+  background-color: black; /* Sets the background color of the element with class "auto-btn4" inside the navigation-auto element to black when radio button with id "radio4" is checked */
 }
