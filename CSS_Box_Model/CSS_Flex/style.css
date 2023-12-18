@@ -1,52 +1,54 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box; /* Sets the box-sizing property for all elements to border-box, which includes padding and border in the element's total width and height */
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0; /* Sets the margin of the body element to 0 */
+  padding: 0; /* Sets the padding of the body element to 0 */
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    min-height: 100vh;
+  display: flex; /* Sets the container element to use flexbox layout */
+  flex-direction: row; /* Sets the direction of flex items in the container to be in a row */
+  flex-wrap: wrap; /* Allows flex items to wrap onto multiple lines if needed */
+  justify-content: center; /* Aligns flex items along the horizontal axis to the center of the container */
+  align-items: flex-start; /* Aligns flex items along the vertical axis to the start of the container */
+  align-content: flex-start; /* Aligns flex lines along the vertical axis to the start of the container */
+  min-height: 100vh; /* Sets the minimum height of the container to 100% of the viewport height */
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    background-color: gray;
-    font-size: 24px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: height 0.5s ease-in-out;
+  width: 100px; /* Sets the width of the box element to 100 pixels */
+  height: 100px; /* Sets the height of the box element to 100 pixels */
+  margin: 10px; /* Sets the margin around the box element to 10 pixels */
+  background-color: gray; /* Sets the background color of the box element to gray */
+  font-size: 24px; /* Sets the font size of the text inside the box element to 24 pixels */
+  color: white; /* Sets the color of the text inside the box element to white */
+  display: flex; /* Sets the box element to use flexbox layout */
+  justify-content: center; /* Aligns the content of the box element along the horizontal axis to the center */
+  align-items: center; /* Aligns the content of the box element along the vertical axis to the center */
+  transition: height 0.5s ease-in-out; /* Specifies the transition effect for the height property with a duration of 0.5 seconds and an ease-in-out timing function */
 }
 
 .box:hover {
-    height: calc(100px + 10vh);
+  height: calc(
+    100px + 10vh
+  ); /* Increases the height of the box element on hover by calculating 100 pixels plus 10% of the viewport height */
 }
 
-.box01 { 
-    background-color: #1abc9c;
-    min-height: 100px;
-    flex-shrink: 0;
- }
+.box01 {
+  background-color: #1abc9c; /* Sets the background color of the box01 element to #1abc9c */
+  min-height: 100px; /* Sets the minimum height of the box01 element to 100 pixels */
+  flex-shrink: 0; /* Prevents the box01 element from shrinking when there is not enough space */
+}
 
 .box02 {
-    background-color: #2ecc71;
-    min-height: 200px;
-    align-self: center;
+  background-color: #2ecc71; /* Sets the background color of the box02 element to #2ecc71 */
+  min-height: 200px; /* Sets the minimum height of the box02 element to 200 pixels */
+  align-self: center; /* Overrides the align-items property of the container for the box02 element and aligns it along the vertical axis to the center */
 }
 
 .box03 {
-    background-color: #3498db;
-    min-height: 300px;
+  background-color: #3498db; /* Sets the background color of the box03 element to #3498db */
+  min-height: 300px; /* Sets the minimum height of the box03 element to 300 pixels */
 }

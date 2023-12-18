@@ -1,36 +1,103 @@
-p{
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    line-height: 1.5;
-    word-spacing: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    text-shadow: 2px 2px 5px #FF0000;
-    text-indent: 50px;
-    background-color: #00FF00;
-    border: 5px solid #0000FF;
-    padding: 20px;
-    margin: 20px;
-    width: 500px;
-    height: 100px;
-    display: inline-block;
-    vertical-align: middle;
-    overflow: hidden;
-    white-space: nowrap;
-    border-radius: 50px;
-    box-shadow: 5px 5px 5px #150232;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-    transform: rotate(30deg);
-    transform: scale(1.5);
-    transform: skew(30deg);
-    transform: translate(50px, 50px);
-    transform-origin: 0% 0%;
-    transition: all 1s ease-in-out;
-    animation: mymove 5s infinite;
+p {
+  /* Sets the text color to red */
+  color: red;
+
+  /* Sets the font size to 20 pixels */
+  font-size: 20px;
+
+  /* Sets the font weight to bold */
+  font-weight: bold;
+
+  /* Centers the text horizontally within the element */
+  text-align: center;
+
+  /* Adds an underline to the text */
+  text-decoration: underline;
+
+  /* Transforms the text to uppercase */
+  text-transform: uppercase;
+
+  /* Adds spacing between letters */
+  letter-spacing: 5px;
+
+  /* Sets the line height to 1.5 times the font size */
+  line-height: 1.5;
+
+  /* Adds spacing between words */
+  word-spacing: 10px;
+
+  /* Sets the font family to 'Times New Roman', Times, serif */
+  font-family: "Times New Roman", Times, serif;
+
+  /* Sets the font style to italic */
+  font-style: italic;
+
+  /* Adds a shadow to the text */
+  text-shadow: 2px 2px 5px #ff0000;
+
+  /* Indents the first line of the text by 50 pixels */
+  text-indent: 50px;
+
+  /* Sets the background color to green */
+  background-color: #00ff00;
+
+  /* Sets the border to 5 pixels width, solid style, and blue color */
+  border: 5px solid #0000ff;
+
+  /* Adds padding of 20 pixels around the content */
+  padding: 20px;
+
+  /* Adds margin of 20 pixels around the element */
+  margin: 20px;
+
+  /* Sets the width of the element to 500 pixels */
+  width: 500px;
+
+  /* Sets the height of the element to 100 pixels */
+  height: 100px;
+
+  /* Displays the element as an inline block */
+  display: inline-block;
+
+  /* Vertically aligns the element in the middle of its container */
+  vertical-align: middle;
+
+  /* Hides any content that exceeds the element's dimensions */
+  overflow: hidden;
+
+  /* Prevents line breaks within the element */
+  white-space: nowrap;
+
+  /* Sets the border radius to 50 pixels, creating a circular shape */
+  border-radius: 50px;
+
+  /* Adds a shadow to the element */
+  box-shadow: 5px 5px 5px #150232;
+
+  /* Sets the opacity of the element to 0.5 */
+  opacity: 0.5;
+
+  /* Sets the opacity of the element to 50% for older browsers */
+  filter: alpha(opacity=50);
+
+  /* Applies a rotation transformation of 30 degrees to the element */
+  transform: rotate(30deg);
+
+  /* Applies a scale transformation of 1.5 times to the element */
+  transform: scale(1.5);
+
+  /* Applies a skew transformation of 30 degrees to the element */
+  transform: skew(30deg);
+
+  /* Applies a translation transformation of 50 pixels horizontally and 50 pixels vertically to the element */
+  transform: translate(50px, 50px);
+
+  /* Sets the origin point for transformations to the top-left corner of the element */
+  transform-origin: 0% 0%;
+
+  /* Specifies the transition effect for all properties with a duration of 1 second and an ease-in-out timing function */
+  transition: all 1s ease-in-out;
+
+  /* Applies an animation named "mymove" with a duration of 5 seconds and infinite repetition */
+  animation: mymove 5s infinite;
 }
