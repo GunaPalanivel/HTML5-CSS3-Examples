@@ -1,62 +1,72 @@
-*{
-    box-sizing: border-box;
+/* Sets the box-sizing property for all elements to border-box, which includes padding and border in the element's total width and height */
+* {
+  box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f1f1f1;
-    display: grid;
-    grid-template-columns: 30% auto;
+/* Sets margin and padding to 0 for the body element */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f1f1;
+  display: grid;
+  grid-template-columns: 30% auto;
 }
 
+/* Adds padding and centers the text for header, footer, aside, and main elements */
 header,
 footer,
 aside,
-main{
-    padding: 1em;
-    text-align: center;
+main {
+  padding: 1em;
+  text-align: center;
 }
 
-header{
-    background-color: rgb(28, 0, 128);
-    color: #fff;
-    grid-template-rows: 60px;
+/* Sets the background color and text color for the header element */
+header {
+  background-color: rgb(28, 0, 128);
+  color: #fff;
+  grid-template-rows: 60px;
 }
 
-footer{
-    background-color: #333;
-    color: #fff;
-    grid-template-rows: 60px;
+/* Sets the background color and text color for the footer element */
+footer {
+  background-color: #333;
+  color: #fff;
+  grid-template-rows: 60px;
 }
 
-aside{
-    background-color: burlywood;
-    color: #333;
-    grid-template-rows: auto;
+/* Sets the background color and text color for the aside element */
+aside {
+  background-color: burlywood;
+  color: #333;
+  grid-template-rows: auto;
 }
 
-main{
-    background-color: blueviolet;
-    color: #333;
+/* Sets the background color and text color for the main element */
+main {
+  background-color: blueviolet;
+  color: #333;
 }
 
-.navigation-list{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+/* Removes the default list style, margin, and padding for the navigation-list class */
+.navigation-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
+/* Removes the underline from the navigation-item anchor tags and sets the text color to white */
 .navigation-item a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
+/* Sets the background color and text color for the navigation-item anchor tags on hover and active states */
 .navigation-item a:hover,
-.navigation-item a:active{
-    background-color: cornsilk;
-    color: #333;
+.navigation-item a:active {
+  background-color: cornsilk;
+  color: #333;
 }
