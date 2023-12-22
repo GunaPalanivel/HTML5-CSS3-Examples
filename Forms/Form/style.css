@@ -1,0 +1,9 @@
+body {
+  text-align: center; /* Sets the alignment of the text within the body element to center */
+  background-color: rgba(
+    54,
+    48,
+    69,
+    0.701
+  ); /* Sets the background color of the body element to a semi-transparent dark purple */
+}

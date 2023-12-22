@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML - Forms</title>
-    <style>
-        body {
-            text-align: center;
-            background-color: rgba(54, 48, 69, 0.701);
-        }
-    </style>
+    <!-- Sets the viewport properties for responsive design -->
+    <title>HTML - Forms</title> <!-- Sets the title of the document -->
+    <link rel="stylesheet" href="style.css"> <!-- Links an external CSS file to the document -->
 </head>
+
 <body>
 
-    <h1>HTML - Forms</h1>
+    <h1>HTML - Forms</h1> <!-- Displays a heading -->
 
-    <form>
+    <form> <!-- Starts a form -->
         First Name: <input type="text" name="First Name" placeholder="First Name">
-        <br>
-        <br>
+        <!-- Creates a text input field for the first name -->
+        <br> <!-- Inserts a line break -->
+        <br> <!-- Inserts a line break -->
         Last Name: <input type="text" name="Last Name" placeholder="Last Name">
-        <br>
-        <br>
-        Gender:
-        <select name="Gender">
-            <option value="None">Choose</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="Transgender">Transgender</option>
-            <option value="LGBTIQ">LGBTIQ</option>
-            <option value="other">Other</option>
+        <!-- Creates a text input field for the last name -->
+        <br> <!-- Inserts a line break -->
+        <br> <!-- Inserts a line break -->
+        Gender: <!-- Displays the label for the gender select field -->
+        <select name="Gender"> <!-- Creates a select field for the gender -->
+            <option value="None">Choose</option> <!-- Creates a default option for the select field -->
+            <option value="male">Male</option> <!-- Creates an option for male gender -->
+            <option value="female">Female</option> <!-- Creates an option for female gender -->
+            <option value="Transgender">Transgender</option> <!-- Creates an option for transgender gender -->
+            <option value="LGBTIQ">LGBTIQ</option> <!-- Creates an option for LGBTIQ gender -->
+            <option value="other">Other</option> <!-- Creates an option for other gender -->
         </select>
-        <br>
-        <br>
+        <br> <!-- Inserts a line break -->
+        <br> <!-- Inserts a line break -->
         Password: <input type="password" name="Password" placeholder="Password" maxlength="16">
-        <br>
-        <br>
-        Description: <br>
-        <textarea name="Description" cols="50" rows="5" placeholder="Description">
-            Enter your Description here...
+        <!-- Creates a password input field -->
+        <br> <!-- Inserts a line break -->
+        <br> <!-- Inserts a line break -->
+        Description: <br> <!-- Displays the label for the description textarea -->
+        <textarea name="Description" cols="50" rows="5" placeholder="Description"> <!-- Creates a textarea for the description -->
+            Enter your Description here... <!-- Sets the default value for the textarea -->
         </textarea>
-        <br>
-        <br>
+        <br> <!-- Inserts a line break -->
+        <br> <!-- Inserts a line break -->
         <input type="checkbox" name="Agree" value="Agree"> I agree to the terms and conditions.
-        <br>
-        <br>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-    </form> 
+        <!-- Creates a checkbox for agreeing to terms and conditions -->
+        <br> <!-- Inserts a line break -->
+        <br> <!-- Inserts a line break -->
+        <input type="submit" value="Submit"> <!-- Creates a submit button -->
+        <input type="reset" value="Reset"> <!-- Creates a reset button -->
+    </form> <!-- Ends the form -->
 </body>
+
 </html>
