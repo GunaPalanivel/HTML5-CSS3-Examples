@@ -1,12 +1,24 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    font-size: 30px;
+body {
+  /* Sets the margin of the body element to 0% */
+  margin: 0%;
+
+  /* Sets the padding of the body element to 0% */
+  padding: 0%;
+
+  /* Sets the font size of the body element to 30 pixels */
+  font-size: 30px;
 }
 
-.box{
-    background-color: blue;
-    border: 10px solid black;
-    padding: 30px;
-    margin: 40px;
+.box {
+  /* Sets the background color of the box element to blue */
+  background-color: blue;
+
+  /* Sets the border of the box element to 10 pixels wide, solid, and black in color */
+  border: 10px solid black;
+
+  /* Sets the padding of the box element to 30 pixels */
+  padding: 30px;
+
+  /* Sets the margin of the box element to 40 pixels */
+  margin: 40px;
 }
