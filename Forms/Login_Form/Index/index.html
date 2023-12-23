@@ -1,31 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Defines the document type as HTML -->
+<html lang="en"> <!-- Starts the HTML document and sets the language to English -->
 
-<head>
-    <meta charset="UTF-8">
+<head> <!-- Begins the head section of the document -->
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document as UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Form</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Sets the viewport properties for responsive design -->
+    <title>Login - Form</title> <!-- Sets the title of the document to "Login - Form" -->
+    <link rel="stylesheet" href="style.css"> <!-- Links an external CSS file named "style.css" to the document -->
 </head>
 
-<body>
-    <div class="container">
-        <h1>Login</h1>
-        <form onsubmit="return validateForm()">
-            <label for="username"><b>Username</b></label>
+<body> <!-- Begins the body section of the document -->
+    <div class="container"> <!-- Creates a container div element -->
+        <h1>Login</h1> <!-- Displays the heading "Login" -->
+        <form onsubmit="return validateForm()"> <!-- Creates a form element with a submit event handler -->
+            <label for="username"><b>Username</b></label> <!-- Creates a label for the username input field -->
             <input type="text" placeholder="Enter Username" name="username" required>
+            <!-- Creates a text input field for the username -->
 
-            <label for="password"><b>Password</b></label>
+            <label for="password"><b>Password</b></label> <!-- Creates a label for the password input field -->
             <input type="password" placeholder="Enter Password" name="password" required>
+            <!-- Creates a password input field for the password -->
 
-            <button type="submit" value="Submit">Login</button>
-        </form>
-        <div class="clearfix">
-            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" value="Submit">Login</button> <!-- Creates a submit button for the form -->
+
+        </form> <!-- Ends the form element -->
+        <div class="clearfix"> <!-- Creates a div element with the class "clearfix" -->
+            <button type="button" class="cancelbtn">Cancel</button> <!-- Creates a button with the class "cancelbtn" -->
             <span class="psw">Forgot <a href="../Forgot_Password/forgotpassword.html">password?</a></span>
-        </div>
-    </div>
-
+            <!-- Creates a span element with the class "psw" and a link to a forgot password page -->
+        </div> <!-- Ends the div element -->
+    </div> <!-- Ends the container div element -->
     <div class="signup">
         Don't have an account? <a href="../Signup/signup.html">Sign up</a>
     </div>

@@ -1,35 +1,41 @@
+/* Sets the font family, background color, text alignment, margin, display, and alignment properties for the body element */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
-    text-align: center;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
+/* Sets the background color, border radius, box shadow, padding, and width properties for the container element */
 .container {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 400px;
-    width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
 }
 
+/* Sets the margin bottom property for the remember-me class */
 .remember-me {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
+/* Sets the color property for the link class */
 .link {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
+/* Sets the color property for the h1 element */
 h1 {
-    color: #333;
+  color: #333;
 }
 
+/* Sets the width, padding, margin, display, border, and border radius properties for various input types, select, and textarea elements */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -43,80 +49,91 @@ input[type="reset"],
 input[type="button"],
 select,
 textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
+/* Sets the background color and outline properties for various input types when focused */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
 input[type="number"]:focus,
 input[type="date"]:focus {
-    background-color: #ddd;
-    outline: none;
+  background-color: #ddd;
+  outline: none;
 }
 
+/* Sets the background color, color, padding, margin, border, border radius, cursor, and width properties for the button element */
 button {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
 }
 
+/* Sets the background color for the button element when hovered */
 button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
+/* Sets the background color, color, padding, margin, border, border radius, cursor, and width properties for the cancelbtn class */
 .cancelbtn {
-    background-color: #f44336;
-    color: #fff;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
+  background-color: #f44336;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
 }
 
+/* Sets the opacity property for the cancelbtn class when hovered */
 .cancelbtn:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
+/* Sets the display property for the phone-inputs class */
 .phone-inputs {
-    display: flex;
+  display: flex;
 }
 
+/* Sets the flex property for the input element with name "countryCode" within the phone-inputs class */
 .phone-inputs input[name="countryCode"] {
-    flex: 1;
+  flex: 1;
 }
 
+/* Sets the flex property for the input element with name "phoneNumber" within the phone-inputs class */
 .phone-inputs input[name="phoneNumber"] {
-    flex: 2;
+  flex: 2;
 }
 
+/* Sets the border, margin bottom, and display properties for the hr element */
 hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
 }
 
+/* Sets the content, clear, and display properties for the clearfix class */
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
+/* Sets the padding property for the container class when the screen width is less than or equal to 768px */
 @media screen and (max-width: 768px) {
-    .container {
-        padding: 10px;
-    }
+  .container {
+    padding: 10px;
+  }
 }

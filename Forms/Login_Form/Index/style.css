@@ -1,66 +1,66 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f2f2;
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; /* Sets the font family for the entire document to Arial, Helvetica, sans-serif */
+  background-color: #f2f2f2; /* Sets the background color of the body to #f2f2f2 */
+  text-align: center; /* Centers the text horizontally within the body */
 }
 
 .container {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 300px;
-  margin: 0 auto;
-  margin-top: 100px;
+  background-color: #ffffff; /* Sets the background color of the container to #ffffff */
+  border-radius: 10px; /* Adds rounded corners to the container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a box shadow to the container */
+  padding: 20px; /* Adds 20 pixels of padding to the container */
+  width: 300px; /* Sets the width of the container to 300 pixels */
+  margin: 0 auto; /* Centers the container horizontally within its parent element */
+  margin-top: 100px; /* Adds a top margin of 100 pixels to the container */
 }
 
 h1 {
-  color: #333;
+  color: #333; /* Sets the color of the h1 element to #333 */
 }
 
 input[type="text"],
 input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  width: 100%; /* Sets the width of the input elements to 100% */
+  padding: 10px; /* Adds 10 pixels of padding to the input elements */
+  margin: 10px 0; /* Adds a top and bottom margin of 10 pixels to the input elements */
+  border: 1px solid #ccc; /* Adds a 1 pixel solid border to the input elements */
+  border-radius: 4px; /* Adds rounded corners to the input elements */
+  box-sizing: border-box; /* Includes the border and padding within the width of the input elements */
 }
 
 button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  width: 100%;
+  background-color: #007bff; /* Sets the background color of the button to #007bff */
+  color: #fff; /* Sets the text color of the button to #fff */
+  padding: 10px 20px; /* Adds 10 pixels of padding to the top and bottom, and 20 pixels of padding to the left and right of the button */
+  margin: 10px 0; /* Adds a top and bottom margin of 10 pixels to the button */
+  border: none; /* Removes the border from the button */
+  border-radius: 4px; /* Adds rounded corners to the button */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  width: 100%; /* Sets the width of the button to 100% */
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Changes the background color of the button to #0056b3 when hovering over it */
 }
 
 .cancelbtn {
-  background-color: #f44336;
+  background-color: #f44336; /* Sets the background color of the cancel button to #f44336 */
 }
 
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+  content: ""; /* Adds an empty content after the clearfix element */
+  clear: both; /* Clears the floats of the preceding elements */
+  display: table; /* Displays the clearfix element as a table */
 }
 
 .signup {
-  background-color: #f2f2f2;
-  padding: 10px;
-  text-align: center;
-  margin-top: 15px;
+  background-color: #f2f2f2; /* Sets the background color of the signup element to #f2f2f2 */
+  padding: 10px; /* Adds 10 pixels of padding to the signup element */
+  text-align: center; /* Centers the text horizontally within the signup element */
+  margin-top: 15px; /* Adds a top margin of 15 pixels to the signup element */
 }
 
 .signup a {
-  text-decoration: none;
-  color: #007bff;
+  text-decoration: none; /* Removes the underline from the signup link */
+  color: #007bff; /* Sets the color of the signup link to #007bff */
 }

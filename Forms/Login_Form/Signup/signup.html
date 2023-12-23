@@ -1,66 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html> <!-- Defines the document type as HTML -->
+<html lang="en"> <!-- Starts the HTML document and sets the language to English -->
+
+<head> <!-- Contains metadata and links to external resources -->
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document as UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-    <link rel="stylesheet" href="signup.css">
+    <!-- Sets the viewport width and initial scale for responsive design -->
+    <title>Registration Form</title> <!-- Sets the title of the document -->
+    <link rel="stylesheet" href="signup.css"> <!-- Links an external CSS file for styling -->
 </head>
-<body>
-    <div class="container">
-        <h1>Registration Form</h1>
+
+<body> <!-- Contains the visible content of the document -->
+    <div class="container"> <!-- Creates a container div -->
+        <h1>Registration Form</h1> <!-- Displays a heading for the registration form -->
         <p>Please fill in this form to create an account.</p>
-        <form>
-            <hr>
-            <label for="FirstName"><b>First Name *</b></label>
+        <!-- Displays a paragraph with instructions for the form -->
+        <form> <!-- Starts the registration form -->
+            <hr> <!-- Displays a horizontal line -->
+            <label for="FirstName"><b>First Name *</b></label> <!-- Displays a label for the first name input field -->
             <input type="text" placeholder="Enter First Name" name="First Name" required>
+            <!-- Creates a text input field for the first name -->
 
             <label for="Middle Name"><b>Middle Name</b></label>
+            <!-- Displays a label for the middle name input field -->
             <input type="text" placeholder="Enter Middle Name" name="Middle Name">
+            <!-- Creates a text input field for the middle name -->
 
-            <label for="Last Name"><b>Last Name *</b></label>
+            <label for="Last Name"><b>Last Name *</b></label> <!-- Displays a label for the last name input field -->
             <input type="text" placeholder="Enter Last Name" name="Last Name" required>
+            <!-- Creates a text input field for the last name -->
 
-            <label for="Gender"><b>Gender *</b></label>
+            <label for="Gender"><b>Gender *</b></label> <!-- Displays a label for the gender input field -->
             <input type="text" placeholder="Enter Gender" name="Gender" required>
+            <!-- Creates a text input field for the gender -->
 
-            <label for="username"><b>User Name *</b></label>
+            <label for="username"><b>User Name *</b></label> <!-- Displays a label for the username input field -->
             <input type="text" placeholder="Enter User Name" name="User Name" required>
+            <!-- Creates a text input field for the username -->
 
-            <label for="phone"><b>Phone Number *</b></label>
-            <div class="phone-inputs">
+            <label for="phone"><b>Phone Number *</b></label> <!-- Displays a label for the phone number input field -->
+            <div class="phone-inputs"> <!-- Creates a div to contain the phone number inputs -->
                 <input type="text" name="countryCode" placeholder="Country Code" required>
+                <!-- Creates a text input field for the country code -->
                 <input type="text" name="phoneNumber" placeholder="Phone Number" required>
+                <!-- Creates a text input field for the phone number -->
             </div>
-    
-            <label for="dateOfBirth"><b>Date of Birth *</b></label>
-            <input type="date" placeholder="Enter Date of Birth" name="dateOfBirth" required>
 
-            <label for="email"><b>Email *</b></label>
+            <label for="dateOfBirth"><b>Date of Birth *</b></label>
+            <!-- Displays a label for the date of birth input field -->
+            <input type="date" placeholder="Enter Date of Birth" name="dateOfBirth" required>
+            <!-- Creates a date input field for the date of birth -->
+
+            <label for="email"><b>Email *</b></label> <!-- Displays a label for the email input field -->
             <input type="email" placeholder="Enter Email" name="email" required>
+            <!-- Creates an email input field for the email -->
 
             <label for="streetAddress"><b>Address *</b></label>
+            <!-- Displays a label for the street address input field -->
             <input type="text" placeholder="Enter Street Address" name="streetAddress" required>
+            <!-- Creates a text input field for the street address -->
             <input type="text" placeholder="Enter City" name="city" required>
+            <!-- Creates a text input field for the city -->
             <input type="text" placeholder="Enter Postal Code" name="postalCode" required>
+            <!-- Creates a text input field for the postal code -->
 
-            <label for="password"><b>Password *</b></label>
+            <label for="password"><b>Password *</b></label> <!-- Displays a label for the password input field -->
             <input type="password" placeholder="Enter Password" name="password" required>
+            <!-- Creates a password input field for the password -->
 
             <label for="password-repeat"><b>Repeat Password *</b></label>
+            <!-- Displays a label for the password repeat input field -->
             <input type="password" placeholder="Repeat Password" name="password-repeat" required>
+            <!-- Creates a password input field for the password repeat -->
 
-            <label for="remember"><input type="checkbox" checked="checked" name="remember" id="remember" class="remember-me"> Remember me</label>
+            <label for="remember"><input type="checkbox" checked="checked" name="remember" id="remember"
+                    class="remember-me"> Remember me</label> <!-- Creates a checkbox for remembering the user -->
             <p>By creating an account, you agree to our <a href="#" class="link">Terms & Privacy</a>.</p>
+            <!-- Displays a paragraph with terms and privacy agreement -->
 
-            <div class="clearfix">
-                <button type="submit" class="signupbtn">Sign up</button>
+            <div class="clearfix"> <!-- Creates a div for clearing floats -->
+                <button type="submit" class="signupbtn">Sign up</button> <!-- Creates a submit button for signing up -->
                 <button type="button" class="cancelbtn">Cancel</button>
+                <!-- Creates a button for canceling the sign up -->
             </div>
 
-            <hr>
+            <hr> <!-- Displays a horizontal line -->
             <p>Already have an account? <a href="../Index/index.html" class="link">Sign in</a></p>
-        </form>
-    </div>
+            <!-- Displays a paragraph with a link to sign in -->
+        </form> <!-- Ends the registration form -->
+    </div> <!-- Ends the container div -->
 </body>
-</html>
+
+</html> <!-- Ends the HTML document -->
