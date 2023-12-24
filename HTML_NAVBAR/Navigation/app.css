@@ -1,59 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* Sets default styles for all elements */
+* {
+  margin: 0; /* Sets the margin to 0 */
+  padding: 0; /* Sets the padding to 0 */
+  box-sizing: border-box; /* Includes the border and padding in the element's total width and height */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* Sets the font family for all elements */
 }
 
-.body-text{
-    display: flex;
-    font-family: "Montserrat", sans-serif;
-    justify-content: center;
-    align-items: center;
-    margin-top: 250px;
-    height: 100vh;
+/* Styles for the body text */
+.body-text {
+  display: flex; /* Displays the element as a flex container */
+  font-family: "Montserrat", sans-serif; /* Sets the font family for the element */
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  margin-top: 250px; /* Sets the top margin to 250px */
+  height: 100vh; /* Sets the height to 100% of the viewport height */
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: #673da7;
-    font-family: "Montserrat", sans-serif;
+/* Styles for the navigation bar */
+nav {
+  display: flex; /* Displays the element as a flex container */
+  justify-content: space-around; /* Distributes the items evenly along the horizontal axis */
+  align-items: center; /* Centers the content vertically */
+  min-height: 8vh; /* Sets the minimum height to 8% of the viewport height */
+  background-color: #673da7; /* Sets the background color to #673da7 */
+  font-family: "Montserrat", sans-serif; /* Sets the font family for the element */
 }
 
-.nav-links{
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
+/* Styles for the navigation links */
+.nav-links {
+  display: flex; /* Displays the element as a flex container */
+  justify-content: space-around; /* Distributes the items evenly along the horizontal axis */
+  width: 30%; /* Sets the width to 30% of the parent container */
 }
 
-.nav-links li{
-    list-style: none;
+.nav-links li {
+  list-style: none; /* Removes the default bullet points from list items */
 }
 
-.heading{
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
+/* Styles for the heading */
+.heading {
+  color: white; /* Sets the text color to white */
+  text-transform: uppercase; /* Transforms the text to uppercase */
+  letter-spacing: 5px; /* Sets the letter spacing to 5px */
+  font-size: 20px; /* Sets the font size to 20px */
 }
 
-.nav-links a{
-    color: white;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 14px 16px;
+/* Styles for the navigation links */
+.nav-links a {
+  color: white; /* Sets the text color to white */
+  text-decoration: none; /* Removes the underline from the link */
+  letter-spacing: 3px; /* Sets the letter spacing to 3px */
+  font-weight: bold; /* Sets the font weight to bold */
+  font-size: 14px; /* Sets the font size to 14px */
+  padding: 14px 16px; /* Sets the padding to 14px on the top and bottom, and 16px on the left and right */
 }
 
-.nav-links a:hover:not(.active){
-    background-color: #00bfa6;
-
+/* Styles for the navigation links on hover */
+.nav-links a:hover:not(.active) {
+  background-color: #00bfa6; /* Sets the background color to #00bfa6 on hover */
 }
 
-.nav-links li a.active{
-    background-color: #1dc845;
+/* Styles for the active navigation link */
+.nav-links li a.active {
+  background-color: #1dc845; /* Sets the background color to #1dc845 for the active link */
 }
